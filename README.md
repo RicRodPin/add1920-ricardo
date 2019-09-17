@@ -7,3 +7,11 @@ Trabajos de add
 Estamos probando como funciona
 
 > Veamos como funciona esto.
+
+Estamos en clase de ADD:
+
+---
+git clone
+---
+
+![gato](img/gato.jpeg)
