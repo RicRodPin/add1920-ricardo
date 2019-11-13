@@ -5,11 +5,11 @@
 ## Temario:
 1. Acceso Remoto
    * [A1: Acceso remoto VNC](u1/a1/README.md)
-   * A2: Acceso remoto SSH
+   * [A2: Acceso remoto SSH](u1/a2/README.md)
 2. Servidor de impresión
-   * A1.a: Servidor impresión Windows
-   * A1.b: Servidor de impresión CUPS
+   * [A1.a: Servidor impresión Windows](u2/a1/README.md)
 3. Integración de sistemas
+   * [A1: Recursos SMB/CIFS (OpenSUSE)](u3/a1/README.md)
 4. ¿?
 5. ¿?
 6. ¿?
