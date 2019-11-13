@@ -28,3 +28,9 @@ Creamos los grupos y usuarios con el siguiente orden:
     - smbguest
 
 ![](img/grupos_usuarios_server.png)
+
+### 1.3 Crear las carpetas para los futuros recursos compartidos
+
+Creamos las carpetas `Public.d`, `castillo.d` y `public.d` les damos el propietario y grupos adecuados y los permisos.
+
+![](img/carpetas_permisos_server.png)
