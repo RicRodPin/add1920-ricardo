@@ -3,12 +3,12 @@
 ![](img/sistemas_operativos.png)
 
 ## Temario:
-1. Acceso Remoto
+1. Acceso Remoto. :satellite:
    * [A1: Acceso remoto VNC](u1/a1/README.md)
    * [A2: Acceso remoto SSH](u1/a2/README.md)
-2. Servidor de impresión
+2. Servidor de impresión. :page_facing_up:
    * [A1.a: Servidor impresión Windows](u2/a1/README.md)
-3. Integración de sistemas
+3. Integración de sistemas. :cyclone:
    * [A1: Recursos SMB/CIFS (OpenSUSE)](u3/a1/README.md)
 4. ¿?
 5. ¿?
