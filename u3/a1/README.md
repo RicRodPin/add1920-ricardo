@@ -57,7 +57,7 @@ Creamos los recursos compartidos en `Yast > Samba Server > Recursos compartidos`
 
 Comprobamos los cambios en el archivo de configuración.
 
-(En este caso no se a usado una captura de pantalla debido a que el archivo es demasiado largo)
+(En este caso no se ha usado una captura de pantalla debido a que el archivo es demasiado largo)
 
 ``` bash
 [global]
@@ -119,3 +119,60 @@ Una vez creados los usuarios en el sistema ahora tenemos que añadirlos al servi
 Comprobamos los usuarios creados en samba.
 
 ![](img/comprobacion_usuarios_samba.png)
+
+### 1.7 Reiniciar
+
+Reiniciamos el servicio `smb` y `nmb`
+
+![](img/reiniciar_servicios.png)
+
+y comprobamos con los comandos `sudo testparm`
+
+![](img/comprobacion_samba.png)
+
+y `sudo lsof -i`
+
+![](img/comprobacion_puertos_samba.png)
+
+## 2. Windows
+### 2.1 Cliente Windows GUI
+
+Desde cliente Windows accedemos a los recursos compartidos en el servidor Samba
+
+![](img/w7_carpetas_samba.png)
+
+- Comprobamos la conexión de Castillo usando el comando `net use` desde Windows
+
+![](img/w7_comprobando_conex_castillo.png)
+
+Comprobamos desde el Servidor con el comando `smbstatus`
+
+![](img/OS_comprobando_conexion_castillo.png)
+
+- Comprobamos la conexión de Barco usado el comando `net use` desde Windows.
+
+![](img/w7_comprobando_conex_barco.png)
+
+Comprobamos desde el Servidor con el comando `smbstatus`
+
+![](img/OS_comprobando_conexion_barco.png)
+
+- También comprobamos con el comando `lsof -i`
+
+![](img/OS_comprobando_puertos_barco.png)
+
+- Comprobamos los recursos del Servidor desde nuestro cliente windows.
+
+![](img/w7_comprobando_recursos.png)
+
+- Vamos a crear una conexión con uno de los recursos compartidos y montarlo en un unidad comosi fuera un disco duro.
+
+![](img/w7_montando_disco_compartido.png)
+
+- Comprobamos la conexión creada con `netuse`
+
+![](img/w7_probando_conexion_disco.png)
+
+- Comprobamos que podemos crear archivos y carpetas dentro de la carpeta "barco"
+
+![](img/w7_creando_en_disco_samba.png)
