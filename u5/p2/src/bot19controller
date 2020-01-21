@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+status=system("systemctl status bot19 > /dev/null")
+
+if status != 'true'
+	system("systemctl start bot19")
+end
