@@ -4,7 +4,7 @@
 
 [Script](src/bot19d)
 
-[Video](www.youtube.com)
+Video: https://youtu.be/tV5KQPrne7o
 
 #### 2.4. Condiguración del Servicio
 
