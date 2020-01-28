@@ -10,6 +10,10 @@
 
 #### 5.2. Comprobar proyecto 2
 
+![](img/vagrant-p2-puertos.png)
+
+![](img/vagrant-p2-funciona.png)
+
 #### 6.1 Suministro Shell Script
 
 #### 7.2 Crear Box Vagrant
