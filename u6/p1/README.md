@@ -58,3 +58,23 @@ Resultado
 ![](img/vagrant-p4-geany.png)
 
 #### 7.2 Crear box Vagrant
+
+Package.
+
+![](img/vagrant-p5-package.png)
+
+Añadiendo al repositorio
+
+![](img/vagrant-p5-añadiendo_al_repositorio.png)
+
+VagrantFile
+
+![](img/vagrant-p5-vagrantfile.png)
+
+Levantando la máquina.
+
+![](img/vagrant-p5-instalacion.png)
+
+Conectando a la máquina.
+
+![](img/vagrant-p5-conectado.png)
