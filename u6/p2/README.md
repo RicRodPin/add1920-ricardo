@@ -113,7 +113,8 @@ Comprobamos que no tengamos errores en las definiciones.
 
 Una vez comprobado que no tenemos ningún error aplicamos el estado.
 
-[![Click sobre la imagen para ver el resultado completo](img/master-aplicando_estado.png)](src/state.apply)
+[![](img/master-aplicando_estado.png)](src/state.apply)
+
 Click sobre la imagen para ver el resultado completo
 
 
