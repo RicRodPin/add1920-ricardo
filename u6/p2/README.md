@@ -117,6 +117,9 @@ Una vez comprobado que no tenemos ningún error aplicamos el estado.
 
 Click sobre la imagen para ver el resultado completo
 
+Comprobamos que el apache2 ha sido instalado.
+
+![](img/minion-apache2_instalado.png)
 
 ### 6. Crear más estados
 #### 6.1. Crear estado "users"
@@ -137,10 +140,40 @@ Asociaremos el estado a todos los minions para que podamos aplicarlo.
 
 Aplicamos el estado.
 
-[![](img/master-aplicando_estado_users.png)](/src/users_state.apply)
+[![](img/master-aplicando_estado_users.png)](src/users_state.apply)
 
 Click en la imagen para ver todo el resultado.
 
+Comprobamos en el minion que el grupo y los usuarios se han creado.
+
+![](img/minion-group_users_creados.png)
+
 #### 6.2. Crear estado "directories"
+
+Vamos a crear un estado para crear los directorios `private`(700), `public`(755) y `group`(750) en el home del usuario `Koji19`
+
+Primero deberemos crear el directorio `/srv/salt/base/directories`
+
+![](img/master-creando_estado_directories.png)
+
+Ahora crearemos el fichero `/srv/salt/base/directories/init.sls`
+
+![](img/master-directories_estado_file.png)
+
+Asociaremos el estado a los minions que tenemos en el ficher `/srv/salt/base/top.sls`
+
+![](img/master-asociando_estado_directories.png)
+
+Comprobamos que no tenemos errores.
+
+![](img/master-show_lowstate_directories.png)
+
+Comprobamos los estados disponibles para los diferentes minions.
+
+![](img/master-comprobar_estados_directories.png)
+
+Y aplicamos el nuevo estado.
+
+[![](img/master-aplicando_estado_directories.png)](src/directories_state.apply)
 
 ### 7. Añadir minion.
