@@ -1,0 +1,43 @@
+ricardo@master19g:~> sudo salt '*' state.apply directories
+minion19g.curso1920:
+----------
+          ID: /home/koji19/private
+    Function: file.directory
+      Result: True
+     Comment: Directory /home/koji19/private updated
+     Started: 09:07:32.153796
+    Duration: 6.449 ms
+     Changes:
+              ----------
+              /home/koji19/private:
+                  New Dir
+----------
+          ID: /home/koji19/public
+    Function: file.directory
+      Result: True
+     Comment: Directory /home/koji19/public updated
+     Started: 09:07:32.160372
+    Duration: 0.869 ms
+     Changes:
+              ----------
+              /home/koji19/public:
+                  New Dir
+----------
+          ID: /home/koji19/group
+    Function: file.directory
+      Result: True
+     Comment: Directory /home/koji19/group updated
+     Started: 09:07:32.161329
+    Duration: 0.886 ms
+     Changes:
+              ----------
+              /home/koji19/group:
+                  New Dir
+
+Summary for minion19g.curso1920
+------------
+Succeeded: 3 (changed=3)
+Failed:    0
+------------
+Total states run:     3
+Total run time:   8.204 ms

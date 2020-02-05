@@ -1,0 +1,86 @@
+ricardo@master19g:~> sudo salt '*' state.apply users
+minion19g.curso1920:
+----------
+          ID: mazingerz
+    Function: group.present
+      Result: True
+     Comment: New group mazingerz created
+     Started: 08:40:25.377881
+    Duration: 131.081 ms
+     Changes:
+              ----------
+              gid:
+                  7648
+              members:
+              name:
+                  mazingerz
+              passwd:
+                  x
+----------
+          ID: user_koji19
+    Function: user.present
+        Name: koji19
+      Result: True
+     Comment: New user koji19 created
+     Started: 08:40:25.543090
+    Duration: 318.355 ms
+     Changes:
+              ----------
+              fullname:
+                  Koji del alumno19
+              gid:
+                  7648
+              groups:
+                  - mazingerz
+              home:
+                  /home/koji19
+              homephone:
+              name:
+                  koji19
+              other:
+              passwd:
+                  x
+              roomnumber:
+              shell:
+                  /bin/bash
+              uid:
+                  2001
+              workphone:
+----------
+          ID: user_drinfierno19
+    Function: user.present
+        Name: drinfierno19
+      Result: True
+     Comment: New user drinfierno19 created
+     Started: 08:40:25.861750
+    Duration: 53.995 ms
+     Changes:
+              ----------
+              fullname:
+                  DrInfierno del alumno19
+              gid:
+                  7648
+              groups:
+                  - mazingerz
+              home:
+                  /home/drinfierno19
+              homephone:
+              name:
+                  drinfierno19
+              other:
+              passwd:
+                  x
+              roomnumber:
+              shell:
+                  /bin/bash
+              uid:
+                  2002
+              workphone:
+
+Summary for minion19g.curso1920
+------------
+Succeeded: 3 (changed=3)
+Failed:    0
+------------
+Total states run:     3
+Total run time: 503.431 ms

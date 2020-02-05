@@ -118,6 +118,29 @@ Una vez comprobado que no tenemos ningún error aplicamos el estado.
 Click sobre la imagen para ver el resultado completo
 
 
-### 6. Crear estado "users"
+### 6. Crear más estados
+#### 6.1. Crear estado "users"
+
+Vamos a crear el fichero `/srv/salt/base/users/init.sls`
+
+![](img/master-crear_users_file.png)
+
+Dentro del fichero crearemos las definiciones para el grupo `mazingerz` y los usuarios `koji19` y `drinfierno19` en dicho grupo.
+
+![](img/master-group_users_file.png)
+
+Asociaremos el estado a todos los minions para que podamos aplicarlo.
+
+![](img/master-fichero_aplicar_estados_users.png)
+
+![](img/master-aplicar_estado_users.png)
+
+Aplicamos el estado.
+
+[![](img/master-aplicando_estado_users.png)](/src/users_state.apply)
+
+Click en la imagen para ver todo el resultado.
+
+#### 6.2. Crear estado "directories"
 
 ### 7. Añadir minion.
