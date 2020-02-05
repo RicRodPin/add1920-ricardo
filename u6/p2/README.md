@@ -176,4 +176,40 @@ Y aplicamos el nuevo estado.
 
 [![](img/master-aplicando_estado_directories.png)](src/directories_state.apply)
 
+Click en la imagen para ver el resultado completo.
+
+Comprobamos que se han creado los directorios en la máquina minion.
+
+![](img/minion-comprobando_estado_directories.png)
+
 ### 7. Añadir minion.
+
+Creamos una nueva MV3 con Windows y yo le he aplicado la siguiente configuración de red.
+
+![](img/minion-win-configuracion.png)
+
+Vemos que la IP es `172.19.19.11` Y el Hostname es `minion19w`
+
+Nos descargaremos el minion Salt-Stack desde la página oficial.
+
+![](img/minion-win-descargar_salt_stack.png)
+
+Comenzamos la instalación y lo primero que debemos indicar es la IP del master y el nombre del minion.
+
+![](img/minion-win-instal_ss_master_ip_minion_name.png)
+
+Le daremos a `Install` y esperamos que termine el proceso.
+
+![](img/minion-win-instalando_ss.png)
+
+Una vez instalado iremos a la máquina master y comprobaremos si tiene la petición del nuevo minion
+
+![](img/master-comprrobar_lista_windows.png)
+
+Aceptaremos la nueva petición
+
+![](img/master-minion_win_aceptado.png)
+
+Ahora comprobamos la conectividad.
+
+![](img/master-comprobar_conectividad_minion_win.png)
