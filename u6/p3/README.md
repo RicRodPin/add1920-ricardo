@@ -105,7 +105,7 @@ Ahora vamos a actualizar los repositorios.
 
 ![](img/docker_debian_actualizar_repos.png)
 
-Vamos a instalar Nginx y el editor de textos Vi
+**Vamos a instalar Nginx y el editor de textos Vi**
 
 ![](img/docker_debian_instalar_nginx.png)
 ![](img/docker_debian_instalar_vim.png)
@@ -126,9 +126,15 @@ Comprobamos ahora si funciona.
 
 ![](img/docker_debian_ps_ef_funciona.png)
 
-Ahora vamos a crear un fichero HTML para nuestro Nginx.
+Ahora vamos a **crear un fichero HTML** para nuestro Nginx.
 
 ![](img/docker_debian_html_nginx.png)
+
+**Crearemos un script** que arranque Nginx por nosotros a la hora de arrancar el Docker.
+
+![](img/creando_script_inicio.png)
+
+![](img/crear_scrip_inicio_nginx.png)
 
 ## 3.3. Crear una imagen a partir del contenedor
 
