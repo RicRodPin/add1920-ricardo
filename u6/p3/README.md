@@ -160,34 +160,102 @@ Tenemos nuestra imagen instalada ahora vamos a iniciarla, con el puerto 80 abier
 
 ## 4.2. Buscar los puertos de salida
 
+Buscamos los puertos que se corresponde de la maquina real con el puero 80 de nuestro docker con nginx
+
+![](img/buscar_puertos.png)
+
+Ahora comprobamos si podemos acceder al servicio de Nginx
+
+![](img/conexion_nginx_docker.png)
+
+Ahora comprobamos si podemos acceder al fichero holamundo.html
+
+![](img/nginx_holamundo_html.png)
+
+## 4.3 Migrar la imágen a otra máquina.
+
+**Exportar** un Docker a un fichero tar
+
+Ahora vamos a exportar nuestro docker para que otra persona pueda usarlo.
+
+![](img/exportar_docker.png)
+
+**Importar** un Docker desde un fichero tar.
+
+Ahora vamos a tomar un docker de un compañero y lo vamos a importar.
+
+![](img/importar_imagen.png)
+
+# 5. Dockerfile
+
+## 5.1. Preparar ficheros
+
+Crearemos el directorio `/home/ricardo/docker19a`, en el pondremos una copia del fichero `holamundo.html` y una copia del fichero `server.sh`
+
+![](img/preparando_archivos_para_dockerfile.png)
+
+Ahora crearemos el fichero `Dockerfile` con el siguiente contenido.
+
+![](img/crear_dockerfile.png)
+
+![](img/dockerfile_contenido.png)
+
+## 5.2. Crear imagen a partir del Dockerfile
+
+Vamos a construir la nueva imagen a partir del Dockerfile
+
+![](img/docker_build.png)
+
+Comprobamos que se ha creado y que aparece en la lista de imagenes de docker que tenemos.
+
+![](img/docker_build_nueva_imagen.png)
+
+## 5.3. Crear contenedor y comprobar
+
+Ahora crearemos un contenedor a partir de la imagen creada anteriormente
+
+![](img/nginx2_creando_contenedor.png)
+
+Ahora vamos a averiguar que puerto escucha el servidor nginx y comprobamos la conexión en el navegador
+
+![](img/nginx2_puertos.png)
+
+vemos que el puerto 8081 de la máquina se corresponde al puerto del Docker
+
+![](img/nginx2_acceso_web.png)
+
+![](img/nginx2_holamundo_html.png)
+
+## 5.4. Usar imágenes ya creadas
+
+{ Falta Por Arreglar }
+
+Vamos a crear el directorio `docker19b` y crearemos el siguiente `Dockerfile`
+
+![](img/dockerfile2_contenido.png)
+
+Creamos la imagen.
+
+![](img/docker_build2.png)
+
+Comprobamos la imagen.
+
+![](img/nueva_imagen_nginx3.png)
+
+Iniciamos el contendor.
+
+![](img/iniciar_contenedor_nginx3.png)
+
+Comprobamos los contenedores que tenemos activos.
+
+![](img/comprobamos_ultimo_contenedor.png)
+
+Ahora comprobamos si el servidor web esta funcionando.
+
+![](img/nginx3_funciona.png)
+
+Ahora comprobamos si podemos acceder al fichero `holamundo.html` que hemos creado para este contenedor
 
 
-# 5. Crear un contenedor a partir de un Dockerfile
 
-## 5.1. Comprobaciones iniciales
-
-
-
-## 5.2. Preparar ficheros
-
-
-
-## 5.3. Crear imagen a partir del Dockerfile
-
-
-
-## 5.4. Crear contenedor y comprobar
-
-
-
-# 6. Migrar las imágenes de Docker a otro servidor
-
-## 6.1. Exportar
-
-
-
-## 6.2. Importar
-
-
-
-# 7. Limpiar
+# 6. Limpiar contenedores e imágenes
