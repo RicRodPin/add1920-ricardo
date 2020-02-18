@@ -18,7 +18,11 @@ Este servicio utiliza por defecto el puerto TCP 3389 en el servidor para recibir
 
 Este servicio tiene distintos tipos de aplicaciones: se utiliza frecuentemente para el acceso remoto en la administración de equipos, pero también es cada vez más utilizado en la gestión de servicios de clientes ligeros
 
-SSH es mas seguro que RDP, en cambio RDP puedes disfrutar de un entorno grafico algo que el SSH no puede ofrecer.
+~~ SSH es mas seguro que RDP, en cambio RDP puedes disfrutar de un entorno grafico algo que el SSH no puede ofrecer. ~~
+
+SSH es un más seguro que RDP pues SSH ha sido creado enfocado a la seguridad, por otro lado RDP esta pensado para ofrecer un entorno grafico fiable desde remoto.
+
+
 
 ## Algunas Características
 
