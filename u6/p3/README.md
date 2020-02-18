@@ -256,6 +256,10 @@ Ahora comprobamos si el servidor web esta funcionando.
 
 Ahora comprobamos si podemos acceder al fichero `holamundo.html` que hemos creado para este contenedor
 
-
+![](img/nginx3_holamundo.png)
 
 # 6. Limpiar contenedores e imágenes
+
+Ahora vamos a hacer limpieza de todo lo que hemos generado, primero debemos para los contenedores, luego borrarlo y luego borrar las imagenes.
+
+![](img/limpiando.png)
