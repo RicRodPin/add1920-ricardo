@@ -41,3 +41,8 @@ A partir del 2006 en la versión RDP 6.0 se introdujeron las siguientes caracter
 * Ancho de banda ajustado para clientes RDP.
 * Soporte de varios monitores. La sesión puede mostrarse en dos monitores.
 ```
+## Uso en crimen
+
+Estudios de seguridad informan que los ciber-criminales venden servidores RDP comprometidos en foros clandestinos y mercados ilícitos. Estos servidores RDP pueden usarse como base de operaciones para conductas como fraude, acceso a datos sensibles personales o datos de empresas. También para inyectar malware.
+La compra de estos accesos puede asociarse a la posterior ejecución de un ransomware, o quizás a la instalación de malware más sigiloso, como troyanos bancarios o software espía.
+
