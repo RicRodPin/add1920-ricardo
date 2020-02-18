@@ -18,6 +18,8 @@ Este servicio utiliza por defecto el puerto TCP 3389 en el servidor para recibir
 
 Este servicio tiene distintos tipos de aplicaciones: se utiliza frecuentemente para el acceso remoto en la administración de equipos, pero también es cada vez más utilizado en la gestión de servicios de clientes ligeros
 
+SSH es mas seguro que RDP, en cambio RDP puedes disfrutar de un entorno grafico algo que el SSH no puede ofrecer..
+
 ## Algunas Características
 
 * Permite el uso de colores de hasta 32 bits
@@ -45,4 +47,3 @@ A partir del 2006 en la versión RDP 6.0 se introdujeron las siguientes caracter
 
 Estudios de seguridad informan que los ciber-criminales venden servidores RDP comprometidos en foros clandestinos y mercados ilícitos. Estos servidores RDP pueden usarse como base de operaciones para conductas como fraude, acceso a datos sensibles personales o datos de empresas. También para inyectar malware.
 La compra de estos accesos puede asociarse a la posterior ejecución de un ransomware, o quizás a la instalación de malware más sigiloso, como troyanos bancarios o software espía.
-
