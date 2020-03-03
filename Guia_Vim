@@ -1,0 +1,31 @@
+>> tabula a la derecha
+<< tabula a la izquierda
+zz pone la línea al medio de la pantalla
+CTRL-a Aumenta en uno el número seleccionado
+CTRL-x Disminuye en uno el número seleccionado
+cw es para reemplazar la palabra actual
+b es para ir hacia atrás de palabra en palabra
+G vamos al final del fichero
+gg vamos al comienzo del fichero
+V es para seleccionar toda la línea
+w es para avanzar de palabra en palabra
+Y es para copiar lo seleccionado
+i es para insertar
+o es para abrir línea debajo
+O es para abrir línea encima
+A es para añadir al final de la línea
+yy es para copiar la línea actual
+P es para pegar encima
+p es para pegar debajo
+u es para deshacer
+dd es para cortar la línea actual
+
+:w es para guardar (modo comando)
+:q para salir
+:q! para salir si o si
+:wq para guardar y salir
+:wq! para guardar y salir A TOPE
+:<num_linea> vamos a esa línea
+:set nu
+
+~/.vimrc Fichero de configuracion
